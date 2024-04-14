@@ -135,15 +135,6 @@
         "socialType": "linkedin"
     },
     {
-        "img": "../team_images/content/Aarati.png",
-        "name": "Aarti Dulal",
-        "depart": "Content Creation",
-        "category": "content-creation",
-        "class": "img-style2",
-        "social": "https://www.linkedin.com/in/aarati-dulal-81727b261",
-        "socialType": "linkedin"
-    },
-    {
         "img": "../team_images/content/Nischal.png",
         "name": "Nischal Katwal",
         "depart": "Content Creation",
@@ -198,15 +189,6 @@
         "socialType": "linkedin"
     },
     {
-        "img": "../team_images/volunteer/Saugat Regmi.png",
-        "name": "Saugat Regmi",
-        "depart": "General Volunteer",
-        "category": "general-volunteer",
-        "class": "img-style2",
-        "social": "https://www.linkedin.com/in/saugat-regmi101",
-        "socialType": "linkedin"
-    },
-    {
         "img": "../team_images/volunteer/Puja Aryal.png",
         "name": "Puja Aryal",
         "depart": "General Volunteer",
@@ -216,26 +198,8 @@
         "socialType": "linkedin"
     },
     {
-        "img": "../team_images/volunteer/Sameena Bhandari.png",
-        "name": "Sameena Bhandari",
-        "depart": "General Volunteer",
-        "category": "general-volunteer",
-        "class": "img-style2",
-        "social": "https://www.linkedin.com/in/sanam-bhandari-928a72238/",
-        "socialType": "linkedin"
-    },
-    {
         "img": "../team_images/volunteer/Prajina Basnet.png",
         "name": "Prajina Basnet",
-        "depart": "General Volunteer",
-        "category": "general-volunteer",
-        "class": "img-style2",
-        "social": "",
-        "socialType": ""
-    },
-    {
-        "img": "../team_images/volunteer/Sanskriti Joshi.png",
-        "name": "Sanskriti Joshi",
         "depart": "General Volunteer",
         "category": "general-volunteer",
         "class": "img-style2",
@@ -288,15 +252,6 @@
         "socialType": "linkedin"
     },
     {
-        "img": "../team_images/ol/Prabha Timilsina.png",
-        "name": "Prabha Timilsina",
-        "depart": "Operations & Logistics",
-        "category": "operations-and-logistics",
-        "class": "img-style2",
-        "social": "",
-        "socialType": ""
-    },
-    {
         "img": "../team_images/finance/Rasmila.png",
         "name": "Rashmila Sapkota",
         "depart": "General Volunteer",
@@ -331,5 +286,95 @@
         "class": "img-style2",
         "social": "https://www.linkedin.com/in/pasang-sherpa-830951274",
         "socialType": "linkedin"
+    },
+    {
+        "img": "../team_images/userimg.png",
+        "name": "Miraj Bhattarai",
+        "depart": "General Volunteer",
+        "category": "general-volunteer",
+        "class": "img-style2",
+        "social": "",
+        "socialType": ""
+    },
+    {
+        "img": "../team_images/userimg.png",
+        "name": "Nayan Raj Pokharal",
+        "depart": "General Volunteer",
+        "category": "general-volunteer",
+        "class": "img-style2",
+        "social": "",
+        "socialType": ""
+    },
+    {
+        "img": "../team_images/userimg.png",
+        "name": "Ashal Pandey",
+        "depart": "General Volunteer",
+        "category": "general-volunteer",
+        "class": "img-style2",
+        "social": "",
+        "socialType": ""
+    },
+    {
+        "img": "../team_images/userimg.png",
+        "name": "Firoj Paudel",
+        "depart": "General Volunteer",
+        "category": "general-volunteer",
+        "class": "img-style2",
+        "social": "",
+        "socialType": ""
+    },
+    {
+        "img": "../team_images/userimg.png",
+        "name": "Reeju Pandit",
+        "depart": "General Volunteer",
+        "category": "general-volunteer",
+        "class": "img-style2",
+        "social": "",
+        "socialType": ""
+    },
+    {
+        "img": "../team_images/userimg.png",
+        "name": "Nilima Mainali",
+        "depart": "General Volunteer",
+        "category": "general-volunteer",
+        "class": "img-style2",
+        "social": "",
+        "socialType": ""
+    },
+    {
+        "img": "../team_images/userimg.png",
+        "name": "Sneha Devkota",
+        "depart": "General Volunteer",
+        "category": "general-volunteer",
+        "class": "img-style2",
+        "social": "",
+        "socialType": ""
+    },
+    {
+        "img": "../team_images/userimg.png",
+        "name": "Nilima Shrestha",
+        "depart": "General Volunteer",
+        "category": "general-volunteer",
+        "class": "img-style2",
+        "social": "",
+        "socialType": ""
+    },
+    {
+        "img": "../team_images/userimg.png",
+        "name": "Bibash Bhattarai",
+        "depart": "General Volunteer",
+        "category": "general-volunteer",
+        "class": "img-style2",
+        "social": "",
+        "socialType": ""
+    },
+    {
+        "img": "../team_images/userimg.png",
+        "name": "Rukesh Paudel",
+        "depart": "General Volunteer",
+        "category": "general-volunteer",
+        "class": "img-style2",
+        "social": "",
+        "socialType": ""
     }
 ]

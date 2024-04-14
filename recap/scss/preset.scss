@@ -9,26 +9,13 @@
     scroll-behavior: smooth;
 }
 body{
-    background-color: #010E27;
-    // background-image: url(../bgpattern.svg);
-    background-size: cover;    
-    background-repeat: no-repeat;
+    background-color: #F5F4F6;
     position: relative;
-//     background: rgb(0,105,179);
-// background: linear-gradient(135deg, rgb(0, 105, 179) 0%, #51abce 91%, #fdfbf5 91%, #fcfcfc 100%);
-// background-color: #012a46;
-
 }
-// .flyingcat{
-//     position: fixed;
-//     top: 100px;
-// }
-
 .mxwidth{
     max-width: 1300px;
     padding: 20px;
     width: 100%;
-    overflow: hidden;
 }
 a{
     text-decoration: none;
@@ -43,19 +30,8 @@ a{
     .max-bg{
         width: 100%;
         display: flex;
-        flex-direction: column;
         justify-content: center;
         align-items: center;
-        overflow: hidden;
-
-        .section-heading{
-            font-size: 40px;
-            text-transform: uppercase;
-            color: #fff;
-            font-weight: 600;
-            margin-top: 40px;
-            text-align: center;
-    }
     }
 }
 

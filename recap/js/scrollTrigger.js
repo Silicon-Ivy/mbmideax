@@ -21,25 +21,29 @@ tracks.addLabel("start")
 tracks.addLabel("start")
     .from(".tc4", { y: 100, autoAlpha: 0 }, "-=0.9")
     .addLabel("end");
-    tracks.addLabel("start")
-    .from(".tc5", { y: 100, autoAlpha: 0 }, "-=1")
-    .addLabel("end");
-tracks.addLabel("start")
-    .from(".tc6", { y: 100, autoAlpha: 0 }, "-=1")
-    .addLabel("end");
-tracks.addLabel("start")
-    .from(".tc7", { y: 100, autoAlpha: 0 }, "-=1")
-    .addLabel("end");
 
-// Theme
-let theme = gsap.timeline({
+// Pre Events Section
+let preEvents = gsap.timeline({
     scrollTrigger: {
-        trigger: '.themebg',
+        trigger: '.pre-events-bg',
         start: "top center",
     }
 });
-theme.from(".theme-title", { y: 200, opacity: 0, duration: 0.6 });
-theme.from(".theme-soon", { y: 200, opacity: 0, duration: 0.65 });
+preEvents.from(".pre-events-title", { y: 200, opacity: 0, duration: 0.6 });
+// preEvents.from(".pre-events-soon", { y: 200, opacity: 0, duration: 0.6 });
+preEvents.addLabel("start")
+    .from(".pe1", { y: 100, opacity: 0, duration: 1, autoAlpha: 0 }, "-=0.9")
+    .addLabel("end");
+// preEvents.addLabel("start")
+//     .from(".pe2", { y: 100, opacity: 0, duration: 1, autoAlpha: 0 }, "-=0.8")
+//     .addLabel("end");
+// preEvents.addLabel("start")
+//     .from(".pe3", { y: 100, opacity: 0, duration: 1, autoAlpha: 0 }, "-=0.7")
+//     .addLabel("end");
+// preEvents.addLabel("start")
+//     .from(".pe4", { y: 100, opacity: 0, duration: 1, autoAlpha: 0 }, "-=0.6")
+//     .addLabel("end");
+
 
 // about section
 let tl = gsap.timeline({
@@ -52,10 +56,9 @@ let tl = gsap.timeline({
 
 tl.from("h2", { y: 200, opacity: 0, duration: 0.6 });
 tl.from(".para", { y: 200, opacity: 0, duration: 1 }, "-=0.6");
-tl.from(".mbmlogo", { y: 200, opacity: 0, duration: 0.4 }, "-=1");
-tl.from(".mbmtxt", { y: 200, opacity: 0, duration: 0.4 }, "-=0.9");
-tl.from(".ideaxlogo", { y: 200, opacity: 0, duration: 0.4 }, "-=1");
-tl.from(".ideaxtxt", { y: 200, opacity: 0, duration: 0.4 }, "-=0.9");
+tl.addLabel("start")
+    .from(".image-about", { x: -100, autoAlpha: 0 }, "-=0.6")
+    .addLabel("end");
 
 // Hero Section 
 let hero = gsap.timeline({
@@ -81,9 +84,8 @@ let nav = gsap.timeline({
 });
 nav.from(".nl1", { y: 30, opacity: 0, duration: 1 }, "-=1");
 nav.from(".nl2", { y: 30, opacity: 0, duration: 0.8 }, "-=1");
-nav.from(".nl3", { y: 30, opacity: 0, duration: 0.2 }, "-=1");
-nav.from(".nl4", { y: 30, opacity: 0, duration: 0.1 }, "-=1");
-nav.from(".nl5", { y: 30, opacity: 0, duration: 0.1 }, "-=1");
+nav.from(".nl3", { y: 30, opacity: 0, duration: 0.6 }, "-=1");
+nav.from(".nl4", { y: 30, opacity: 0, duration: 0.4 }, "-=1");
+nav.from(".nl5", { y: 30, opacity: 0, duration: 0.2 }, "-=1");
 nav.from(".nl6", { y: 30, opacity: 0, duration: 0.1 }, "-=1");
 nav.from(".nl7", { y: 30, opacity: 0, duration: 0.1 }, "-=1");
-nav.from(".nl8", { y: 30, opacity: 0, duration: 0.1 }, "-=1");

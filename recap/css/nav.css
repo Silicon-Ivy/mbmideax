@@ -1,5 +1,5 @@
 .navmax {
-  background-color: #010E27;
+  background-color: #fff;
   width: 100%;
   position: sticky;
   top: 0;
@@ -30,7 +30,7 @@
   list-style: none;
 }
 .navmax nav .links li a {
-  color: #fff;
+  color: #000;
   margin: 0 10px;
   font-size: 18px;
   position: relative;
@@ -38,6 +38,24 @@
 .navmax nav .links li a:hover {
   color: #0973BA;
   transition: all 0.3s ease-in-out;
+}
+.navmax nav .links li a:hover::before {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  height: 2px;
+  width: 100%;
+  background-color: #0973BA;
+  animation: underline 0.3s linear;
+}
+@keyframes underline {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
 }
 .navmax nav .hamburger {
   position: absolute;
@@ -47,7 +65,7 @@
 .navmax nav .hamburger .line {
   width: 30px;
   height: 5px;
-  background-color: #fff;
+  background-color: #000;
   margin: 5px;
   border-radius: 25px;
 }

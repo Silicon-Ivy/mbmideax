@@ -1,8 +1,7 @@
 $pcolor: #0973BA;
-$bgcolor: #010E27;
 
 .navmax {
-  background-color: $bgcolor;
+  background-color: #fff;
   width: 100%;
   position: sticky;
   top: 0;
@@ -34,7 +33,7 @@ $bgcolor: #010E27;
         list-style: none;
 
         a {
-          color: #fff;
+          color: #000;
           margin: 0 10px;
           font-size: 18px;
           position: relative;
@@ -45,24 +44,24 @@ $bgcolor: #010E27;
           transition: all .3s ease-in-out;
         }
 
-        // a:hover::before {
-        //   content: '';
-        //   position: absolute;
-        //   bottom: -5px;
-        //   left: 0;
-        //   height: 2px;
-        //   width: 100%;
-        //   background-color: $pcolor;
-        //   animation: underline .3s linear ;
-        // }
-        // @keyframes underline {
-        //   0%{
-        //     width: 0%;
-        //   }
-        //   100%{
-        //     width: 100%;
-        //   }
-        // }
+        a:hover::before {
+          content: '';
+          position: absolute;
+          bottom: -5px;
+          left: 0;
+          height: 2px;
+          width: 100%;
+          background-color: $pcolor;
+          animation: underline .3s linear ;
+        }
+        @keyframes underline {
+          0%{
+            width: 0%;
+          }
+          100%{
+            width: 100%;
+          }
+        }
       }
     }
 
@@ -74,7 +73,7 @@ $bgcolor: #010E27;
       .line {
         width: 30px;
         height: 5px;
-        background-color: #fff;
+        background-color: #000;
         margin: 5px;
         border-radius: 25px;
       }

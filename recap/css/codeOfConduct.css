@@ -1,21 +1,23 @@
+body {
+  background-color: #fff;
+}
+
 .heading {
   font-weight: 800;
-  color: #fff;
+  color: #0973BA;
   font-size: 3rem;
-  margin-top: 50px;
 }
 
 .coc-title {
   font-size: 2.6rem;
   font-weight: 600;
   margin-top: 20px;
-  color: #fff;
+  color: #0973BA;
 }
 
 .coc-paragraph {
   font-size: 1.7rem;
   margin-top: 20px;
-  color: #adadad;
 }
 
 @media (max-width: 750px) {
