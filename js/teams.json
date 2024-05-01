@@ -1,14 +1,5 @@
 [
     {
-        "img": "../team_images/advisoryBoard/chief.png",
-        "name": "Ramesh Chandra Paudel",
-        "depart": "Advisory Board",
-        "category": "advisory-board",
-        "class": "img-style2",
-        "social": "",
-        "socialType": ""
-    },
-    {
         "img": "../team_images/advisoryBoard/kamalneupane.png",
         "name": "Kamal Neupane",
         "depart": "Advisory Board",
@@ -29,15 +20,6 @@
     {
         "img": "../team_images/advisoryBoard/phulBabuJha.png",
         "name": "Phul Babu Jha",
-        "depart": "Advisory Board",
-        "category": "advisory-board",
-        "class": "img-style2",
-        "social": "",
-        "socialType": ""
-    },
-    {
-        "img": "../team_images/advisoryBoard/akMishra.png",
-        "name": "Dr. Anjay Kumar Mishra",
         "depart": "Advisory Board",
         "category": "advisory-board",
         "class": "img-style2",
