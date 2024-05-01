@@ -4,7 +4,7 @@ $pcolor: #0973BA;
     margin-top: 0;
 }
 .teambg{
-    background-color: #fff;
+    // background-color: #fff;
     padding: 10px 0 100px 0;
     position: relative;
 
@@ -19,6 +19,7 @@ $pcolor: #0973BA;
                 position: absolute;
                 top: 20px;
                 cursor: pointer;
+                color: #ffffff;
             }
             i::after{
                 content: 'Filter';
@@ -63,8 +64,10 @@ $pcolor: #0973BA;
 
             .team-card{
                 border: none;
-                background-color: $pcolor;
-                background: linear-gradient(105.76deg, #256BAF 2.84%, #2E99CE 47.41%, #53CAF1 93.85%);
+                background: #012a74;
+                background: linear-gradient(90deg,#012a74 0%, #001439 80%);
+                background: -webkit-linear-gradient(90deg,#012a74 0%, #001439 80%);
+                background: -moz-linear-gradient(90deg,#012a74 0%, #001439 80%);
                 padding: 30px;
                 border-radius: 10px;
                 display: flex;
