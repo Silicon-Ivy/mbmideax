@@ -401,7 +401,7 @@ $boxbg: #044672;
             flex-wrap: wrap;
             gap: 30px;
             justify-content: center;
-            align-items: center;
+            // align-items: center;
 
             .workshop-card {
                 background-color: #0000004d;
@@ -430,6 +430,9 @@ $boxbg: #044672;
 
                 .register-btn:hover {
                     background-color: #0576c2;
+                }
+                .reg-closed{
+                    cursor: not-allowed;
                 }
             }
         }

@@ -268,7 +268,6 @@
   flex-wrap: wrap;
   gap: 30px;
   justify-content: center;
-  align-items: center;
 }
 .event-details .event-details-box .workshops .workshop-card {
   background-color: rgba(0, 0, 0, 0.3019607843);
@@ -294,6 +293,9 @@
 }
 .event-details .event-details-box .workshops .workshop-card .register-btn:hover {
   background-color: #0576c2;
+}
+.event-details .event-details-box .workshops .workshop-card .reg-closed {
+  cursor: not-allowed;
 }
 .event-details .event-details-box .event_details {
   display: flex;
