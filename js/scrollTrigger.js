@@ -21,7 +21,7 @@ tracks.addLabel("start")
 tracks.addLabel("start")
     .from(".tc4", { y: 100, autoAlpha: 0 }, "-=0.9")
     .addLabel("end");
-    tracks.addLabel("start")
+tracks.addLabel("start")
     .from(".tc5", { y: 100, autoAlpha: 0 }, "-=1")
     .addLabel("end");
 tracks.addLabel("start")
@@ -39,7 +39,27 @@ let theme = gsap.timeline({
     }
 });
 theme.from(".theme-title", { y: 200, opacity: 0, duration: 0.6 });
-theme.from(".theme-soon", { y: 200, opacity: 0, duration: 0.65 });
+theme.addLabel("start")
+    .from(".th1", { y: 100, autoAlpha: 0 }, "-=0.6")
+    .addLabel("end");
+theme.addLabel("start")
+    .from(".th2", { y: 100, autoAlpha: 0 }, "-=0.7")
+    .addLabel("end");
+theme.addLabel("start")
+    .from(".th3", { y: 100, autoAlpha: 0 }, "-=0.8")
+    .addLabel("end");
+theme.addLabel("start")
+    .from(".th4", { y: 100, autoAlpha: 0 }, "-=0.9")
+    .addLabel("end");
+theme.addLabel("start")
+    .from(".th5", { y: 100, autoAlpha: 0 }, "-=1")
+    .addLabel("end");
+theme.addLabel("start")
+    .from(".th6", { y: 100, autoAlpha: 0 }, "-=1")
+    .addLabel("end");
+theme.addLabel("start")
+    .from(".th7", { y: 100, autoAlpha: 0 }, "-=1")
+    .addLabel("end");
 
 // about section
 let tl = gsap.timeline({
