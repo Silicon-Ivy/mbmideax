@@ -108,6 +108,15 @@
         "socialType": "linkedin"
     },
     {
+        "img": "../team_images/sponsor/vishal_shrestha.png",
+        "name": "Vishal Shrestha",
+        "depart": "Sponsorship",
+        "category": "sponsorship",
+        "class": "img-style2",
+        "social": "https://www.linkedin.com/in/vishalstha/",
+        "socialType": "linkedin"
+    },
+    {
         "img": "../team_images/documentation/Prabhat.png",
         "name": "Prabhat Basnet",
         "depart": "Documentation",
