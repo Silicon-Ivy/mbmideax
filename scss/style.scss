@@ -59,7 +59,7 @@ $boxbg: #044672;
             overflow: hidden;
             user-select: none;
             margin-bottom: 20px;
-            margin-top: -20px;
+            margin-top: -30px;
 
             .row {
                 width: 80px;
@@ -69,13 +69,14 @@ $boxbg: #044672;
                 align-items: center;
 
                 .value {
-                    color: $pcolor;
+                    color: #ffffff;
                     font-size: 20px;
                     text-align: left;
                 }
 
                 .label {
                     text-align: left;
+                    color: #cccccc;
                 }
             }
         }

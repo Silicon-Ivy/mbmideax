@@ -90,6 +90,24 @@
         "socialType": "linkedin"
     },
     {
+        "img": "../team_images/userimg.png",
+        "name": "Prabesh Bhujel",
+        "depart": "Design",
+        "category": "design",
+        "class": "img-style2",
+        "social": "https://www.linkedin.com/in/prabesh-b-9b8a07191/",
+        "socialType": "linkedin"
+    },
+    {
+        "img": "../team_images/userimg.png",
+        "name": "Aayushmi Adhikari",
+        "depart": "Design",
+        "category": "design",
+        "class": "img-style2",
+        "social": "",
+        "socialType": ""
+    },
+    {
         "img": "../team_images/design/sujan.png",
         "name": "Sujan Reshmi Magar",
         "depart": "Logistics Lead",
@@ -145,7 +163,34 @@
     },
     {
         "img": "../team_images/userimg.png",
+        "name": "Sachita Bhandari",
+        "depart": "Content Creation Lead",
+        "category": "content",
+        "class": "img-style2",
+        "social": "",
+        "socialType": ""
+    },
+    {
+        "img": "../team_images/userimg.png",
+        "name": "Sneha Devkota",
+        "depart": "Content Assistance",
+        "category": "content",
+        "class": "img-style2",
+        "social": "",
+        "socialType": ""
+    },
+    {
+        "img": "../team_images/userimg.png",
         "name": "Nilima Mainali",
+        "depart": "Hacker Experience",
+        "category": "hacker-experience",
+        "class": "img-style2",
+        "social": "",
+        "socialType": ""
+    },
+    {
+        "img": "../team_images/userimg.png",
+        "name": "Nilima Shrestha",
         "depart": "Hacker Experience",
         "category": "hacker-experience",
         "class": "img-style2",
