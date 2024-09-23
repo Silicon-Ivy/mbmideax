@@ -1,5 +1,23 @@
 [
     {
+        "img": "../team_images/advisoryBoard/campus_chief.png",
+        "name": "Dr. Babu Ram Adhikari",
+        "depart": "Advisory Board",
+        "category": "advisory-board",
+        "class": "img-style2",
+        "social": "",
+        "socialType": ""
+    },
+    {
+        "img": "../team_images/advisoryBoard/chairman.png",
+        "name": "Mahendra Bahadur Pandey",
+        "depart": "Advisory Board",
+        "category": "advisory-board",
+        "class": "img-style2",
+        "social": "",
+        "socialType": ""
+    },
+    {
         "img": "../team_images/advisoryBoard/kamalneupane.png",
         "name": "Kamal Neupane",
         "depart": "Advisory Board",
